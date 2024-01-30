@@ -1,7 +1,9 @@
 # typed-vue
-A Vue 3 component for creating typing animations using [Typed.js](https://mattboldt.com/demos/typed-js/).
+
+A Vue 3 component for creating typing animations using [Typed.js](https://github.com/mattboldt/typed.js).
 
 ## Installation
+
 ```bash
 # npm
 npm install typed-vue
@@ -12,10 +14,25 @@ yarn add typed-vue
 ```
 
 ## Usage
+
+```vue
+<template>
+  <TypedComponent :options="options" />
+</template>
+
+<script setup lang="ts">
+import { TypedComponent, type TypedOptions } from "typed-vue";
+
+const options: TypedOptions = {
+  strings: ["云想衣裳花想容", "春风拂槛露华浓"]
+};
+</script>
+```
+
 ```vue
 <template>
   <TypedComponent :options="options">
-    <h1 class="typing"></h1>
+    <span>李白白：</span><span class="typing" />
   </TypedComponent>
 </template>
 
@@ -23,14 +40,18 @@ yarn add typed-vue
 import { TypedComponent, type TypedOptions } from "typed-vue";
 
 const options: TypedOptions = {
-  strings: ["Hello", "World", "This is typed-vue"],
+  strings: ["云想衣裳花想容，春风拂槛露华浓"],
+  typeSpeed: 50,
   loop: true,
-  typeSpeed: 30,
+  onComplete(self) {
+    console.log("onComplete", self);
+  }
 };
 </script>
 ```
 
 ## options
-I export TypedOptions from Typed.js
 
-Please check [Typed.js](https://mattboldt.com/demos/typed-js/)
+I export `TypedOptions` from `Typed.js`
+
+Please check [Typed.js](https://github.com/mattboldt/typed.js)
