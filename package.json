@@ -1,12 +1,18 @@
 {
-  "name": "typed-vue",
+  "name": "typed-vue3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "description": "基于 Vue3 + Type.js 实现的打字机组件",
+  "keywords": [
+    "Type.js",
+    "vue3",
+    "逐字显示",
+    "打字效果"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build && vite --config ./build/vite.config.ts",
-    "lib": "vue-tsc && vite build && vite --config ./build/vite.config.ts",
+    "dev": "cd play && vite",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "lint:eslint": "eslint --cache --max-warnings 0  \"{src,mock,build}/**/*.{vue,js,ts,tsx}\" --fix",
     "lint:prettier": "prettier --write  \"src/**/*.{js,ts,json,tsx,css,scss,vue,html,md}\"",
@@ -45,7 +51,32 @@
     "stylelint-scss": "^5.3.2",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
+    "vite-plugin-dts": "^3.7.2",
     "vue-eslint-parser": "^9.4.2",
     "vue-tsc": "^1.8.27"
-  }
+  },
+  "homepage": "https://github.com/Ten-K/typed-vue3/tree/main/#readme",
+  "bugs": {
+    "url": "https://github.com/Ten-K/typed-vue3/issues"
+  },
+  "license": "MIT",
+  "author": "Ten-K",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ten-K/typed-vue3"
+  },
+  "main": "dist/typed-vue3.umd.js",
+  "module": "dist/typed-vue3.js",
+  "types": "dist/index.d.ts",
+  "unpkg": "dist/typed-vue3.umd.js",
+  "jsdelivr": "dist/typed-vue3.umd.js",
+  "exports": {
+    ".": {
+      "require": "./dist/typed-vue3.umd.js",
+      "import": "./dist/typed-vue3.js"
+    }
+  },
+  "files": [
+    "dist"
+  ]
 }

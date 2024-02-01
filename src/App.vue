@@ -1,6 +1,6 @@
 <template>
   <TypedComponent :options="options">
-    <span>李白白：</span><span class="typing" />
+    <span>李白白：</span>
   </TypedComponent>
 </template>
 
@@ -10,7 +10,6 @@ import { TypedComponent, type TypedOptions } from "./components/index";
 const options: TypedOptions = {
   strings: ["云想衣裳花想容，春风拂槛露华浓"],
   typeSpeed: 50,
-  loop: true,
   onComplete(self) {
     console.log("onComplete", self);
   }
