@@ -1,9 +1,9 @@
 <h1 align="center">typed-vue3</h1>
-<p align="center">Vue 3组件，基于 Typed.js 创建打字动画。</p>
+<p align="center">A Vue 3 component for creating typing animations using Typed.js.</p>
 
 简体中文 | [English](./README.en-US.md)
 
-## 安装
+## Installation
 
 ```bash
 # npm
@@ -14,7 +14,7 @@ pnpm add typed-vue3
 yarn add typed-vue3
 ```
 
-## 使用
+## Usage
 
 ```vue
 <template>
@@ -51,8 +51,8 @@ const options: TypedOptions = {
 </script>
 ```
 
-## 配置
+## options
 
-我从 `Typed.js` 导出了 `TypedOptions`
+I export `TypedOptions` from `Typed.js`
 
-详细配置请查看 [Typed.js](https://github.com/mattboldt/typed.js)
+For details, please view [Typed.js](https://github.com/mattboldt/typed.js)

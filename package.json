@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "description": "基于 Vue3 + Type.js 实现的打字机组件",
+  "description": "Vue3组件，基于 Typed.js 创建打字动画。",
   "keywords": [
     "Type.js",
     "vue3",
