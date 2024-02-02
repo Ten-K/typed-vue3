@@ -2,7 +2,7 @@
   "name": "typed-vue3",
   "version": "0.0.1",
   "type": "module",
-  "description": "Vue3组件，基于 Typed.js 创建打字动画。",
+  "description": "Vue3组件, 基于 Typed.js 创建打字动画。",
   "sideEffects": false,
   "packageManager": "pnpm@8.14.1",
   "keywords": [
