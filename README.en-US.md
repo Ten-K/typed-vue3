@@ -53,6 +53,4 @@ const options: TypedOptions = {
 
 ## options
 
-I export `TypedOptions` from `Typed.js`
-
 For details, please view [Typed.js](https://github.com/mattboldt/typed.js)

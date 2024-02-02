@@ -53,6 +53,4 @@ const options: TypedOptions = {
 
 ## 配置
 
-我从 `Typed.js` 导出了 `TypedOptions`
-
 详细配置请查看 [Typed.js](https://github.com/mattboldt/typed.js)
