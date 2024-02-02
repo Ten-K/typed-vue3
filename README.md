@@ -6,6 +6,8 @@
 
 简体中文 | [English](./README.en-US.md)
 
+<img src="https://cdn.jsdelivr.net/gh/Ten-K/picgo/img/2024-02-02-17-22-28.gif" alt="pure-admin-cli" width="380" />
+
 ## 安装
 
 ```bash
