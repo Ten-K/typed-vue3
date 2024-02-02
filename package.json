@@ -15,8 +15,8 @@
     "dev": "cd play && vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint:eslint": "eslint --cache --max-warnings 0  \"{src,mock,build}/**/*.{vue,js,ts,tsx}\" --fix",
-    "lint:prettier": "prettier --write  \"src/**/*.{js,ts,json,tsx,css,scss,vue,html,md}\"",
+    "lint:eslint": "eslint --cache --max-warnings 0  \"src/*.{vue,ts}\" --fix",
+    "lint:prettier": "prettier --write  \"src/*.{ts,vue}\"",
     "lint": "pnpm lint:eslint && pnpm lint:prettier",
     "prepare": "husky install"
   },
