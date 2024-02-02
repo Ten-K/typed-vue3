@@ -1,7 +1,7 @@
 <h1 align="center">typed-vue3</h1>
 <p align="center">A Vue 3 component for creating typing animations using Typed.js.</p>
 
-简体中文 | [English](./README.en-US.md)
+[简体中文](./README.md) | English
 
 ## Installation
 
@@ -22,7 +22,7 @@ yarn add typed-vue3
 </template>
 
 <script setup lang="ts">
-import { TypedComponent, type TypedOptions } from "typed-vue";
+import { TypedComponent, type TypedOptions } from "typed-vue3";
 
 const options: TypedOptions = {
   strings: ["云想衣裳花想容", "春风拂槛露华浓"]
@@ -38,7 +38,7 @@ const options: TypedOptions = {
 </template>
 
 <script setup lang="ts">
-import { TypedComponent, type TypedOptions } from "typed-vue";
+import { TypedComponent, type TypedOptions } from "typed-vue3";
 
 const options: TypedOptions = {
   strings: ["云想衣裳花想容，春风拂槛露华浓"],

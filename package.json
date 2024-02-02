@@ -1,9 +1,10 @@
 {
   "name": "typed-vue3",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Vue3组件，基于 Typed.js 创建打字动画。",
+  "sideEffects": false,
+  "packageManager": "pnpm@8.14.1",
   "keywords": [
     "Type.js",
     "vue3",
@@ -65,14 +66,15 @@
     "type": "git",
     "url": "https://github.com/Ten-K/typed-vue3"
   },
-  "main": "dist/typed-vue3.umd.js",
+  "main": "dist/typed-vue3.umd.cjs",
   "module": "dist/typed-vue3.js",
   "types": "dist/index.d.ts",
-  "unpkg": "dist/typed-vue3.umd.js",
-  "jsdelivr": "dist/typed-vue3.umd.js",
+  "unpkg": "dist/typed-vue3.umd.cjs",
+  "jsdelivr": "dist/typed-vue3.umd.cjs",
   "exports": {
     ".": {
-      "require": "./dist/typed-vue3.umd.js",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/typed-vue3.umd.cjs",
       "import": "./dist/typed-vue3.js"
     }
   },
