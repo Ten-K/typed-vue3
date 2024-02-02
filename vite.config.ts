@@ -8,12 +8,12 @@ export default defineConfig({
   plugins: [
     vue(),
     dts({
-      include: "src/components/*.ts"
+      include: "src/index.ts"
     })
   ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, "src/components/index.ts"),
+      entry: path.resolve(__dirname, "src/index.ts"),
       name: "typed-vue3"
     },
     rollupOptions: {
