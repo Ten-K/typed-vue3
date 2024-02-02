@@ -1,5 +1,8 @@
 <h1 align="center">typed-vue3</h1>
 <p align="center">Vue 3组件，基于 Typed.js 创建打字动画。</p>
+<p align="center">
+<a href="https://www.npmjs.com/package/typed-vue3" target="__blank"><img src="https://img.shields.io/npm/v/typed-vue3?color=a1b858&label=" alt="NPM version"></a>
+</p>
 
 简体中文 | [English](./README.en-US.md)
 

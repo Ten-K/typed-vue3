@@ -52,7 +52,7 @@
   "author": "Ten-K",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ten-K/typed-vue3"
+    "url": "git+https://github.com/Ten-K/typed-vue3.git"
   },
   "main": "dist/typed-vue3.umd.cjs",
   "module": "dist/typed-vue3.js",
