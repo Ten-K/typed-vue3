@@ -58,4 +58,5 @@ const options: TypedOptions = {
 
 ## 配置
 
-详细配置请查看 [Typed.js](https://github.com/mattboldt/typed.js)
+已支持所有 `Typed.js` 的配置项
+具体配置请查看 [Typed.js](https://github.com/mattboldt/typed.js)
