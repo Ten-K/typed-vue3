@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 import Typed, { type TypedOptions } from "typed.js";
-import { ref, onMounted, onBeforeUnmount } from "vue";
+import { onMounted, onBeforeUnmount, useTemplateRef } from "vue";
 
 defineOptions({
   name: "TypedComponent"
@@ -16,7 +16,7 @@ const props = defineProps<{
   options: TypedOptions;
 }>();
 
-const typedRef = ref<Element | null>(null);
+const typedRef = useTemplateRef('typedRef');
 let typedInstance: Typed | null = null;
 
 /**

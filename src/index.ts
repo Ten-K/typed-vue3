@@ -5,7 +5,7 @@ export { type TypedOptions } from "typed.js";
 
 export const TypedComponent = Object.assign(typedComponent, {
   install: (app: App) => {
-    app.component(typedComponent.name, typedComponent);
+    app.component(typedComponent.name!, typedComponent);
   }
 });
 
